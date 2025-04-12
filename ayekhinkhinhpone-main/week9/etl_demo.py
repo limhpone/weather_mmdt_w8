@@ -15,7 +15,7 @@ logging.basicConfig(
     filename="./w9/mmdt_etl.log"
 )
 
-def extract_json_from_url(url:str):
+def extract_json_from_url(url:str):ayekhinkhinhpone-main\week9\etl_demo.py
     try:
         return requests.get(url).json()
     except Exception as e:
