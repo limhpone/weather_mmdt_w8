@@ -19,7 +19,7 @@ jobs:
           cache: "pip"
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Print Waether API secret
+      - name: Print Weather API secret
         run: echo ${{ secrets.API_KEY }}
       - name: Run data pipeline
         run: python ans_covid_data.py
