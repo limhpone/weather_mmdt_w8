@@ -20,4 +20,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run data pipeline
-        run: ans_covid_data.py
+        run: python ans_covid_data.py
