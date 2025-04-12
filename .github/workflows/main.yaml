@@ -20,4 +20,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run data pipeline
-        run: python week7_demo/ans_covid_data.py
+        run: python week7/ans_covid_data.py
